@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.banner {
+  background-image: url(../src/assets/images/banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+.banner::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.banner-poster {
+  background-image: url(../src/assets/images/banner-poster.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+  z-index: 1;
+}
+.banner-poster::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 5555555;
+}
+.menu-list {
+  padding: 0 20px;
+  color: #3d4247;
+  font-weight: 700;
+  cursor: pointer !important;
+  text-decoration: none;
+}
+.menu-list:hover {
+  color: red;
+}
+.log-avatar {
+  font-size: 30px;
+}
+.banner-content {
+  font-weight: 900;
+  font-size: 2.8em;
+  background-color: transparent;
+  position: relative;
+  z-index: 9999999999;
+  width: 500px;
+  display: flex;
+  /* align-items: center; */
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  left: 10%;
+}
+.banner-content h1 {
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #d0dfef;
+}
+.banner-button {
+  font-size: 20px;
+  padding: 20px 50px;
+  border-radius: 57px;
+  background-color: #509ae9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 600;
+  border: 0;
+  outline: 0;
+}
+.banner-poster-content {
+  font-weight: 900;
+  font-size: 2em;
+  background-color: transparent;
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+  justify-content: flex-end; /* Align items to the bottom */
+  align-items: center;
+  /* position: relative;
+  z-index: 9; */
+  /* width: 500px; */
+  /* left: 10%; */
+}
+.banner-poster-content h1 {
+  font-weight: 900;
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  /* text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); */
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.register-donor {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.register-donor h5 {
+  text-align: center;
+  color: #000;
+}
+.register-donor span {
+  font-size: 5em;
+  font-weight: 900;
+  color: #000;
+  text-transform: uppercase;
+}
+.MuiDataGrid-columnHeaders {
+  background-color: #1e1e1e;
+  color: #fff !important;
+}
+.css-1ndpvdd-MuiTableCell-root {
+  color: #fff !important;
+}
+.bg-wwlk {
+  background: #141e30; /* fallback for old browsers */
+  min-height: 100vh;
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+}
